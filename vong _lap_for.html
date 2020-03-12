@@ -6,17 +6,17 @@
 </head>
 <body>
 <script>
-    let bang;
-    bang = "<table border='1' width='300' cellspacing='0' cellpadding='3' align='center'>"
-    for (i = 1; i <= 10; i++) {
-        bang = bang + "<tr>";
-        for (j = 1; j <= 10; j++) {
-            bang = bang + "<td>" + i * j + "</td>";
-        }
-        bang = bang + "</tr>";
-    }
-    bang = bang + "</table>";
-    document.write(sout);
+    let i;
+    let b = "<table border='1'>"
+   for (i=1 ; i<=10 ; i++){
+       b = b + "</tr>";
+       for (k=1 ; k<=10 ; k++){
+           b = b + "<td>" + i * k + "</td>"
+       }
+       b = b + "</tr>"
+   }
+   b = b + "</table>"
+    document.write(b)
 </script>
 </body>
 </html>
